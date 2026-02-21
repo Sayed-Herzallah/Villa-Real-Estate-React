@@ -1,0 +1,609 @@
+/* 
+=============================================
+VILLA AGENCY - Responsive Improvements
+=============================================
+ملف CSS إضافي - ضيفه في public/assets/css/responsive.css
+وربطه في index.html بعد style.css
+*/
+
+/* =============================================
+   Base Improvements
+============================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =============================================
+   Large Desktop (1400px+)
+============================================= */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+
+  .main-banner .item {
+    padding: 250px 22% 360px 22%;
+  }
+
+  .main-banner .item h2 {
+    font-size: 72px;
+    line-height: 84px;
+  }
+}
+
+/* =============================================
+   Desktop (1200px - 1399px)
+============================================= */
+@media (max-width: 1399px) and (min-width: 1200px) {
+  .main-banner .item h2 {
+    font-size: 56px;
+    line-height: 68px;
+  }
+}
+
+/* =============================================
+   Small Desktop / Large Tablet (992px - 1199px)
+============================================= */
+@media (max-width: 1199px) {
+  .header-area .main-nav .nav li {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .header-area .main-nav .nav li a {
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .main-banner .item {
+    padding: 180px 12% 280px 12%;
+  }
+
+  .main-banner .item h2 {
+    font-size: 50px;
+    line-height: 62px;
+  }
+
+  .fun-facts .counter {
+    width: 230px;
+  }
+
+  .section-heading h2 {
+    font-size: 34px;
+    line-height: 48px;
+  }
+}
+
+/* =============================================
+   Tablet (768px - 991px)
+============================================= */
+@media (max-width: 991px) {
+  /* Sub Header */
+  .sub-header {
+    display: none;
+  }
+
+  /* Header */
+  .header-area {
+    height: 80px;
+    padding: 0 15px;
+  }
+
+  .header-area .main-nav .logo h1 {
+    line-height: 80px;
+  }
+
+  .background-header .main-nav .logo h1 {
+    line-height: 80px;
+  }
+
+  .header-area .main-nav .nav li {
+    height: auto;
+    line-height: normal;
+  }
+
+  .header-area .main-nav .nav li a {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 13px;
+    height: 44px;
+    line-height: 44px;
+  }
+
+  /* Banner */
+  .main-banner .item {
+    padding: 150px 8% 220px 8%;
+  }
+
+  .main-banner .item h2 {
+    font-size: 40px;
+    line-height: 52px;
+    width: 100%;
+  }
+
+  .main-banner .owl-dots {
+    left: 8%;
+  }
+
+  /* Sections */
+  .section {
+    margin-top: 80px;
+  }
+
+  .section-heading {
+    margin-bottom: 50px;
+  }
+
+  .section-heading h2 {
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  /* Featured */
+  .featured .left-image {
+    margin-bottom: 80px;
+  }
+
+  .featured .left-image img {
+    padding-left: 0;
+  }
+
+  .featured .section-heading {
+    margin-top: 60px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .featured .section-heading h2 {
+    width: 100%;
+  }
+
+  .featured .accordion {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Fun Facts */
+  .fun-facts {
+    margin-top: 80px;
+  }
+
+  .fun-facts .counter {
+    width: 100%;
+    max-width: 280px;
+    margin-bottom: 30px;
+  }
+
+  /* Best Deal */
+  .best-deal {
+    padding: 60px 0;
+  }
+
+  .best-deal .section-heading {
+    text-align: center;
+  }
+
+  .best-deal .tabs-content ul.nav-tabs {
+    margin-top: 0;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .best-deal .tab-content img {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .best-deal .info-table {
+    margin-bottom: 30px;
+  }
+
+  .best-deal .info-table ul li span {
+    float: right !important;
+    width: auto !important;
+  }
+
+  /* Properties */
+  .properties .item ul li {
+    font-size: 13px;
+    margin-right: 8px;
+  }
+
+  .properties .item h6 {
+    float: none;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  /* Contact */
+  .contact-content .phone {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-content .email {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .contact-content #contact-form {
+    margin-left: 0;
+  }
+
+  /* Single Property */
+  .single-property .info-table {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  /* Contact Page */
+  .contact-page .section-heading {
+    margin-right: 0 !important;
+  }
+
+  .contact-page #contact-form {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .contact-page .item {
+    min-width: auto;
+    width: 100%;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 80px;
+  }
+}
+
+/* =============================================
+   Mobile (max 767px)
+============================================= */
+@media (max-width: 767px) {
+  /* Header / Navbar */
+  .header-area {
+    height: 80px;
+    box-shadow: none;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .header-area .main-nav {
+    overflow: hidden;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .header-area .main-nav .logo {
+    position: absolute;
+    left: 15px;
+    top: 0;
+  }
+
+  .header-area .main-nav .logo h1 {
+    line-height: 80px !important;
+    font-size: 22px;
+  }
+
+  .header-area .main-nav .menu-trigger {
+    display: block !important;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+  }
+
+  .header-area .main-nav ul.nav {
+    display: none;
+    float: none;
+    width: 100%;
+    margin-top: 80px;
+    flex-basis: 100%;
+    transition: none;
+  }
+
+  .background-header .main-nav ul.nav {
+    margin-top: 80px !important;
+  }
+
+  .header-area .main-nav ul.nav li {
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #eee;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-radius: 0;
+  }
+
+  .header-area .main-nav ul.nav li a {
+    display: block;
+    line-height: 50px;
+    height: 50px;
+    font-weight: 400;
+    color: #1e1e1e;
+    background-color: #fff;
+    padding-left: 20px;
+    border-radius: 0;
+  }
+
+  .header-area .main-nav ul.nav li:last-child {
+    display: none;
+  }
+
+  .background-header .main-nav {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 0 0 20px 20px;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  /* Banner */
+  .main-banner .item {
+    padding: 120px 5% 180px 5%;
+  }
+
+  .main-banner .item h2 {
+    font-size: 28px;
+    line-height: 40px;
+    width: 100%;
+  }
+
+  .main-banner .item span.category {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .main-banner .owl-dots {
+    left: 5%;
+    bottom: 40px;
+  }
+
+  .main-banner .owl-nav .owl-prev i {
+    left: 15px;
+  }
+
+  .main-banner .owl-nav .owl-next i {
+    right: 15px;
+  }
+
+  /* Sections */
+  .section {
+    margin-top: 60px;
+  }
+
+  .section-heading {
+    margin-bottom: 40px;
+  }
+
+  .section-heading h2 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .section-heading h6 {
+    font-size: 13px;
+  }
+
+  /* Featured */
+  .featured .left-image a {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    bottom: -40px;
+  }
+
+  .featured .left-image img {
+    padding-left: 0;
+  }
+
+  /* Fun Facts */
+  .fun-facts .counter {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 25px auto;
+  }
+
+  .fun-facts .counter h2 {
+    font-size: 32px;
+  }
+
+  .fun-facts .counter:after {
+    width: 35px;
+    height: 35px;
+    right: -17px;
+    top: -17px;
+  }
+
+  /* Best Deal */
+  .best-deal {
+    padding: 50px 0;
+  }
+
+  .best-deal .tabs-content .nav-link {
+    font-size: 13px;
+    padding: 0 12px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .best-deal .tabs-content ul.nav-tabs li {
+    margin: 0 4px 8px 4px;
+  }
+
+  .best-deal .tabs-content ul.nav-tabs {
+    justify-content: center;
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+
+  /* Properties */
+  .properties .item {
+    padding: 20px;
+  }
+
+  .properties .item h4 {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+
+  .properties .item ul li {
+    font-size: 12px;
+    margin-right: 6px;
+    margin-bottom: 8px;
+  }
+
+  .properties .item h6 {
+    font-size: 17px;
+    float: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Properties Filter */
+  .properties ul.properties-filter li {
+    margin: 4px;
+  }
+
+  .properties ul.properties-filter li a {
+    font-size: 13px;
+    padding: 10px 14px;
+  }
+
+  /* Page Heading */
+  .page-heading {
+    padding: 80px 15px;
+  }
+
+  .page-heading h3 {
+    font-size: 32px;
+  }
+
+  /* Contact */
+  .contact {
+    padding: 80px 0 200px 0;
+  }
+
+  .contact-content {
+    margin-top: -190px;
+  }
+
+  .contact-content .item {
+    margin-bottom: 20px;
+  }
+
+  /* Icon Button */
+  .icon-button a {
+    font-size: 13px;
+    padding-right: 20px;
+  }
+
+  .icon-button a i {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+  }
+
+  /* Main Button */
+  .main-button a {
+    font-size: 13px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 22px;
+  }
+
+  /* Contact Page */
+  .contact-page .item {
+    min-width: auto;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .contact-page #contact-form {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  /* Single Property */
+  .single-property .info-table {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 60px;
+    min-height: auto;
+    padding: 20px 0;
+  }
+
+  footer p {
+    line-height: 1.8;
+    font-size: 14px;
+    padding: 20px 15px;
+  }
+
+  /* Video section */
+  .video {
+    padding: 80px 0 200px 0;
+  }
+
+  .video-content {
+    margin-top: -190px;
+  }
+}
+
+/* =============================================
+   Small Mobile (max 480px)
+============================================= */
+@media (max-width: 480px) {
+  .main-banner .item {
+    padding: 100px 4% 160px 4%;
+  }
+
+  .main-banner .item h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .section-heading h2 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .fun-facts .counter {
+    max-width: 260px;
+  }
+
+  .best-deal .tabs-content .nav-link {
+    font-size: 12px;
+    padding: 0 10px;
+    height: 36px;
+    line-height: 36px;
+  }
+
+  .page-heading h3 {
+    font-size: 26px;
+  }
+
+  .properties ul.properties-filter li a {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .header-area .main-nav .logo h1 {
+    font-size: 20px !important;
+  }
+}
