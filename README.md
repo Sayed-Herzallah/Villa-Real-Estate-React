@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  ![React](https://img.shields.io/badge/React-2023-blue?logo=react&style=for-the-badge) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v3-blue?logo=tailwindcss&style=for-the-badge) ![Leaflet](https://img.shields.io/badge/Leaflet-Maps-green?logo=leaflet&style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+  <img src="https://img.shields.io/badge/React-2023-blue?logo=react&style=for-the-badge" alt="React" /> <img src="https://img.shields.io/badge/TailwindCSS-v3-blue?logo=tailwindcss&style=for-the-badge" alt="TailwindCSS" /> <img src="https://img.shields.io/badge/Leaflet-Maps-green?logo=leaflet&style=for-the-badge" alt="Leaflet" /> <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
 </div>
 
 بوابة **الفيلا العقارية** هي واجهة تفاعلية مخصصة للبحث واستعراض الفلل السكنية والمنتجعات الفاخرة، تتميز بتصميمات بصرية راقية وفلاتر تصفية متقدمة لتسهيل العثور على العقار السكني الأمثل.
